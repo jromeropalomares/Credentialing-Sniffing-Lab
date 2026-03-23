@@ -1,0 +1,65 @@
+........... ..!.."..'.....#
+..%
+..%
+........... ..!..".."....
+....P. ....".....b........b....	B.
+........................"....
+..'.....#..&..&..$
+..&..&..$
+.. .....#.....'.........
+.. .9600,9600....#.bam.zing.org:0.0....'..DISPLAY.bam.zing.org:0.0......xterm-color..
+...
+...
+.....!......
+......
+.."............
+OpenBSD/i386 (oof) (ttyp2)
+
+login: 
+fake
+
+...
+...
+Password:
+user
+
+
+...
+...
+Last login: Sat Nov 27 20:11:43 on ttyp2 from bam.zing.org
+Warning: no Kerberos tickets issued.
+OpenBSD 2.6-beta (OOF) #4: Tue Oct 12 20:42:32 CDT 1999
+
+Welcome to OpenBSD: The proactively secure Unix-like operating system.
+
+Please use the sendbug(1) utility to report bugs in the system.
+Before reporting a bug, please try to reproduce it with the latest
+version of the code.  With bug reports, please try to ensure that
+enough information to reproduce the problem is enclosed, and if a
+known fix for it exists, include that as well.
+
+$ 
+/sbin/ping www.yahoo.com
+
+PING www.yahoo.com (204.71.200.67): 56 data bytes
+64 bytes from 204.71.200.67: icmp_seq=0 ttl=241 time=69.885 ms
+64 bytes from 204.71.200.67: icmp_seq=1 ttl=241 time=73.591 ms
+64 bytes from 204.71.200.67: icmp_seq=2 ttl=241 time=72.302 ms
+64 bytes from 204.71.200.67: icmp_seq=3 ttl=241 time=73.493 ms
+64 bytes from 204.71.200.67: icmp_seq=4 ttl=241 time=75.068 ms
+64 bytes from 204.71.200.67: icmp_seq=5 ttl=241 time=70.239 ms
+
+.....
+.....
+.--- www.yahoo.com ping statistics ---
+6 packets transmitted, 6 packets received, 0% packet loss
+round-trip min/avg/max = 69.885/72.429/75.068 ms
+$ 
+ls
+
+$ 
+ls -a
+
+.         ..        .cshrc    .login    .mailrc   .profile  .rhosts
+$ 
+exit
